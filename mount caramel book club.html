@@ -1,0 +1,240 @@
+<html>
+    <head>
+        <style>
+
+            body{
+                background-color: blanchedalmond;
+            }
+    header{
+        background-color: aquamarine;
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+    }
+        
+        nav{
+            background-color:lightcoral;
+            position: sticky;
+            top: 0;
+            z-index: 2;
+            display:flex ;
+            justify-content: center;
+        }
+    #intro {background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;}
+    .main-section content{background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom:50px ;}
+
+#bestsellers {background-color: brown;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+h1 {background-color: pink;}
+h2{background-color: blue;}
+h3{background-color: aqua;}
+table{background-color: baby pink;}
+tr:last-child{
+color:red}
+teacherinfo{border-radius: 5px;
+margin: 10px;
+width: 400px;
+box-shadow: 6px 0px 21px -3px #6e6e6e;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+button{background-color: red;
+color: white;
+font-size: 20px;
+font-weight: bold;
+padding: 5px;
+border-radius: 5px;
+border: none;
+position: fixed;
+right: 40px;
+bottom: 30px;}
+ul{list-style-type:none;}
+li a{text-decoration: none;
+color: #6e6e6e;
+font-size: 20px;
+font-weight: 600;}
+li a:hover{color: red;}
+p{font-size: 18px;}
+h3{font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-decoration: underline;}
+nav li {margin: 10px;
+padding: 5px;
+border: 1px solid;
+border-radius: 5px;}
+.teacherinfo div:last-child{margin:50px;}
+.main-section content {padding: 20px;}
+table{margin: auto;}
+th,
+td {padding: 10px;}
+footer{padding: 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+#bestsellers h2{padding: 20px;}
+ol li{margin-bottom: 20px;}
+
+
+
+
+#videos div{display: flex;
+justify-content: center;
+align-items: center;
+}
+#teachers{display: flex;
+justify-content: center;
+align-items: center;}
+nav ul{display: flex;
+   justify-content: space-between;}
+   header {grid-area:header;}
+nav{grid-area:nav;}
+#intro{grid-area:intro;}
+#main-section {grid-area:main-section;}
+#bestsellers {grid-area:bestsellers;}
+footer{grid-area:footer}
+.grid-container
+{display:grid;
+grid-template-columns: auto auto auto auto auto;
+grid-template-areas:
+"header header header header intro"
+"nav nav nav nav intro"
+"main-section main-section main-section main-section bestsellers"
+"footer footer footer footer footer"
+}
+
+
+
+    
+    </style>
+        <title>mount caramel book club</title>
+        </head>
+
+        <body>
+            <div class="grid-container">
+                <header>
+
+            <h1>
+                mount caramel book club.
+            
+
+            </h1>
+            
+            <img src="c:\Users\SMART COMPUTER\Downloads\images (1).jpeg"
+            alt="a library" width="300">
+            </header>
+            <nav>
+            <ul>
+                <li><a
+                href="https://openlibrary.org/">home</a></li>
+        
+                
+                <li><a
+               href="https://openlibrary.org/">reading groups</a></li>
+                
+            
+            <li><a
+            href="#">online groups</a></li>
+            <li><a
+            href="#">contact us</a></li>
+            </ul>
+</nav>
+            <div id="intro">
+            <h2>
+                welcome to mount caramel book club.
+            </h2>
+            <p>the mount caramel book club is an online community of book readers in mount caramel school.</p>
+            </div>
+            <div id="main-section">
+            <div id="main-section-content">
+            <h2>Meet our teachers.</h2>
+            <div id="teachers">
+            <div class="teacherinfo">
+            <div>
+
+            <img src="c:\Users\SMART COMPUTER\Downloads\images.jpeg">
+            </div>
+            <h3>ms.Mishu</h3>
+            
+           
+            
+            <p>she teaches the primary part of the school.she read in dhaka university in <i>science</i> . </p>
+            </div>
+        <div class="teacherinfo">
+            
+            <h3>ms.rahama</h3>
+            <p>she teaches bengali.also she helps the student to learn<i>computer</i> .</p>
+            <img src="c:\Users\SMART COMPUTER\Downloads\download.jpeg">
+    </div>
+</div>
+</div>
+</div>
+</div>
+<div id="bookReview" class="main-section-content">
+            <h2>book Review</h2>
+            <h3>guliver's travel</h3>
+            <p><strong>Anutithi:</strong><q>i love this book. it was so interesting.everyone must read it.</q></p>
+            <p><strong>Rahama:</strong><i>i really enjoyed reading this book.it was so good.</i></p>
+            </div>
+            <div id="relatedvideos" class="main-section-content">
+            <h3>related videos</h3>
+            <iframe httpswidth="560" height="315" src="https://www.youtube.com/embed/OVdUcOUfO9o?si=_TqYzUtxjhF2A4qe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="main-section-content">
+                <h1>opening times</h1>
+            <table>
+                <tr>
+                    <th>Monday</th>
+                    <td>10am - 4pm</td>
+                </tr>
+                <tr>
+                    <th>Tuesday</th>
+                    <td>11am - 3pm</td>
+                </tr>
+                <tr>
+                    <th>wednesday</th>
+                    <td>12pm - 5pm</td>
+                </tr>
+                <tr>
+                    <th>thursday</th>
+                    <td>11am - 4pm</td>
+
+                </tr>
+                <tr>
+                    <th>friday</th>
+                    <td>12pm - 4pm</td>
+                </tr>
+                <tr>
+                    <th>saturday</th>
+                    <td>closed</td>
+
+                </tr>
+                <tr>
+                    <th>sunday</th>
+                    <td>10am - 3pm</td>
+                </tr>
+            </table>
+            <div id="bestsellers">
+            <h2>Best 
+            sellers</h2>
+            <b>charlie and the chocolate factory</b>by<i>roald deli</i><br>
+            <b>the cat in the hat.</b>by<i>dr seuss</i><br>
+            <b>tangled</b><i>antoin de</i>
+            </div>
+            <footer>
+            <p>Contact us:ms.mishu</p>
+            <p>phone no:017156743</p>
+            <address>1200,dhaka azimpur.</address>
+            <button>enquiry</button>
+            </footer>
+        </body>
+    </div>
+    </html>
